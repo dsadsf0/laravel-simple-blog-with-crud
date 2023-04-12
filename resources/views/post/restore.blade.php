@@ -9,7 +9,7 @@
     @endforeach
   </div>
   <div>
-    {{ $posts->links() }}
+    {{ $posts->withQueryString()->links() }}
   </div>
 </section>
 @endsection

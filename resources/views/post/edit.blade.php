@@ -36,7 +36,7 @@
     <select 
       multiple
       name="tags[]" 
-      class="@error('tags') _error @enderror"
+      class="select-tags @error('tags') _error @enderror"
     >
       @foreach($tags as $tag)
         <option 

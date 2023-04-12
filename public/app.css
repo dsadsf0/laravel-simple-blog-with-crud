@@ -123,6 +123,10 @@ a {
   border-radius: 5px;
 }
 
+.create-form .select-tags {
+  height: 120px;
+}
+
 .btn {
   cursor: pointer;
   display: block;
